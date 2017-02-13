@@ -1,55 +1,63 @@
-<div class="container">
-	<div class="toolbar">
-		<!--Bold / Italic / Underline-->
-		<button id="bold" title="Bold (Ctrl+B)">
-			<i></i>
-		</button>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Txt-Editor</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="toolbar">
+			<!--Bold / Italic / Underline-->
+			<button id="bold" title="Bold (Ctrl+B)">
+				<i></i>
+			</button>
 
-		<button id="italic" title="Italic (Ctrl+I)">
-			<i></i>
-		</button>
+			<button id="italic" title="Italic (Ctrl+I)">
+				<i></i>
+			</button>
 
-		<button id="underline" title="Underline (Ctrl+U)">
-			<i></i>
-		</button>
-	
+			<button id="underline" title="Underline (Ctrl+U)">
+				<i></i>
+			</button>
+		
 
-		<!--Sélection de la police-->
-		<select name="fonts" id="fonts">
-			<option value=""></option>
-		</select>
-
-
-		<!--Sélection de la taille de la police-->
-		<select name="size" id="size">
-			<option value="8">8</option>
-			<option value="10">10</option>
-			<option value="12">12</option>
-			<option value="14">14</option>
-			<option value="16" selected="">16</option>
-			<option value="18">18</option>
-			<option value="20">20</option>
-			<option value="22">22</option>
-			<option value="24">24</option>
-			<option value="26">26</option>
-		</select>
+			<!--Sélection de la police-->
+			<select name="fonts" id="fonts">
+				<option value=""></option>
+			</select>
 
 
-		<!--Sélection de la couleur-->
-		<input type="text" id="color" />
+			<!--Sélection de la taille de la police-->
+			<select name="size" id="size">
+				<option value="8">8</option>
+				<option value="10">10</option>
+				<option value="12">12</option>
+				<option value="14">14</option>
+				<option value="16" selected="">16</option>
+				<option value="18">18</option>
+				<option value="20">20</option>
+				<option value="22">22</option>
+				<option value="24">24</option>
+				<option value="26">26</option>
+			</select>
 
 
-		<!--Alignement du texte-->
-		<button id="align-left" title="Align-left"><i></i></button>
-		<button id="align-center" title="Align-center"><i></i></button>
-		<button id="align-right" title="Align-right"><i></i></button>
+			<!--Sélection de la couleur-->
+			<input type="text" id="color" />
 
 
-		<!--Création listes-->
-		<button id="list-ul" title="Unordered list"><i></i></button>
-		<button id="list-ol" title="Ordered list"><i></i></button>
+			<!--Alignement du texte-->
+			<button id="align-left" title="Align-left"><i></i></button>
+			<button id="align-center" title="Align-center"><i></i></button>
+			<button id="align-right" title="Align-right"><i></i></button>
+
+
+			<!--Création listes-->
+			<button id="list-ul" title="Unordered list"><i></i></button>
+			<button id="list-ol" title="Ordered list"><i></i></button>
+		</div>
+		<div class="area"></div>
 	</div>
-
-	<div class="area"></div>
-
-</div>
+</body>
+</html>
