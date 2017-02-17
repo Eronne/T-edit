@@ -8,78 +8,85 @@
 </head>
 <body>
 	<div class="container">
-		<div class="toolbar">
-			<!--Bold / Italic / Underline-->
-			<div class="tool-1">
-				<button id="bold" title="Bold (Ctrl+B)">
-					<i class="fa fa-bold" aria-hidden="true"></i>
-				</button>
+        <header>
+            <div class="toolbar">
+                <!--Bold / Italic / Underline-->
+                <div class="tool-1">
+                    <button id="bold" title="Bold (Ctrl+B)">
+                        <i class="fa fa-bold" aria-hidden="true"></i>
+                    </button>
 
-				<button id="italic" title="Italic (Ctrl+I)">
-					<i class="fa fa-italic" aria-hidden="true"></i>
-				</button>
+                    <button id="italic" title="Italic (Ctrl+I)">
+                        <i class="fa fa-italic" aria-hidden="true"></i>
+                    </button>
 
-				<button id="underline" title="Underline (Ctrl+U)">
-					<i class="fa fa-underline" aria-hidden="true"></i>
-				</button>
-			</div>
-		
-
-			<!--Sélection de la police-->
-			<div class="tool-2">
-				<select name="fonts" id="fonts">
-					<option value="Arial" selected>Arial</option>
-			        <option value="Georgia">Georgia</option>
-			        <option value="Tahoma">Tahoma</option>
-			        <option value="Times New Roman">Times New Roman</option>
-			        <option value="Verdana">Verdana</option>
-			        <option value="Impact">Impact</option>
-			        <option value="Courier New">Courier New</option>
-				</select>
-
-				<!--Sélection de la taille de la police-->
-				<select name="size" id="size">
-					<option value="8">8</option>
-					<option value="10">10</option>
-					<option value="12">12</option>
-					<option value="14">14</option>
-					<option value="16" selected="">16</option>
-					<option value="18">18</option>
-					<option value="20">20</option>
-					<option value="22">22</option>
-					<option value="24">24</option>
-					<option value="26">26</option>
-				</select>
-
-				<!--Sélection de la couleur-->
-				<input type="text" id="color" />
-			</div>
+                    <button id="underline" title="Underline (Ctrl+U)">
+                        <i class="fa fa-underline" aria-hidden="true"></i>
+                    </button>
+                </div>
 
 
-			<!--Alignement du texte-->
-			<div class="tool-3">
-				<button id="align-left" title="Align-left">
-					<i class="fa fa-align-left" aria-hidden="true"></i>
-				</button>
-				<button id="align-center" title="Align-center">
-					<i class="fa fa-align-center" aria-hidden="true"></i>
-				</button>
-				<button id="align-right" title="Align-right">
-					<i class="fa fa-align-right" aria-hidden="true"></i>
-				</button>
-			</div>
+                <!--Sélection de la police-->
+                <div class="tool-2">
+                    <select name="fonts" id="fonts">
+                        <option value="Arial" selected>Arial</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Tahoma">Tahoma</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value="Impact">Impact</option>
+                        <option value="Courier New">Courier New</option>
+                    </select>
+
+                    <!--Sélection de la taille de la police-->
+                    <select name="size" id="size">
+                        <option value="8">8</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                        <option value="14">14</option>
+                        <option value="16" selected="">16</option>
+                        <option value="18">18</option>
+                        <option value="20">20</option>
+                        <option value="22">22</option>
+                        <option value="24">24</option>
+                        <option value="26">26</option>
+                    </select>
+
+                    <!--Sélection de la couleur-->
+                    <input type="text" id="color" />
+                </div>
 
 
-			<!--Création listes-->
-			<div class="tool-4">
-				<button id="list-ul" title="Unordered list">
-					<i class="fa fa-list-ul" aria-hidden="true"></i>
-				</button>
-				<button id="list-ol" title="Ordered list">
-					<i class="fa fa-list-ol" aria-hidden="true"></i>
-				</button>
-			</div>
-		</div>
+                <!--Alignement du texte-->
+                <div class="tool-3">
+                    <button id="align-left" title="Align-left">
+                        <i class="fa fa-align-left" aria-hidden="true"></i>
+                    </button>
+                    <button id="align-center" title="Align-center">
+                        <i class="fa fa-align-center" aria-hidden="true"></i>
+                    </button>
+                    <button id="align-right" title="Align-right">
+                        <i class="fa fa-align-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+
+                <!--Création listes-->
+                <div class="tool-4">
+                    <button id="list-ul" title="Unordered list">
+                        <i class="fa fa-list-ul" aria-hidden="true"></i>
+                    </button>
+                    <button id="list-ol" title="Ordered list">
+                        <i class="fa fa-list-ol" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <button id="export" title="Export">
+                <a href="#" class="export">
+                    <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                </a>
+            </button>
+        </header>
 		<div class="area" contenteditable="true"></div>
 	</div>
 
