@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>T-Edit</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
@@ -51,9 +53,6 @@
                         <option value="24">24</option>
                         <option value="26">26</option>
                     </select>
-
-                    <!--Sélection de la couleur-->
-                    <input type="text" id="color" />
                 </div>
 
 
@@ -82,7 +81,7 @@
                 </div>
             </div>
             <button title="Exporter au format .txt">
-                <a href="#" class="export" id="export">
+                <a href="#" class="export" id="export" onclick="Print()">
                     <i class="fa fa-share-square-o" aria-hidden="true"></i>
                 </a>
             </button>

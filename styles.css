@@ -32,9 +32,9 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space- space-around;
-	margin: 0 38% 10px 0;
-	width: 60%;
+	justify-content: flex-start;
+    margin-bottom: 10px;
+	width: 100%;
 }
 
 .tool-1, .tool-2, .tool-3{
@@ -108,6 +108,5 @@ box-shadow: inset 0px 0px 8px 0px rgba(77,77,77,0.45);
 
 
 /* Media Queries */
-@media (max-width: px) {
-    
+@media () {
 }
